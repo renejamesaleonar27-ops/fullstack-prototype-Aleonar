@@ -103,4 +103,13 @@ display: none;
     border-radius: 8px;
 }
 /* LOGIN  */
+.login{
+    display: none;
+}
+.inner-profile{
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 35%;
+}
 
