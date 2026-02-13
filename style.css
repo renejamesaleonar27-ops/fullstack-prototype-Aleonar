@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.nav{
+nav{
    height: 100px;
    width: 100%;
    background-color: rgb(93, 95, 95);
@@ -16,7 +16,7 @@
 nav h1{
     font-size: 20px;
     font-family: tahoma;
-    padding-left: 20px;
+    padding-left: 30px;
     
     
 }
@@ -37,13 +37,52 @@ nav h1{
     background-color: rgb(102, 190, 241);
     display: flex;
     justify-content:left;
-    align-items: left;
+    align-items: center;
+    border-radius: 8px;
 }
 .button{
     background-color: aqua;
     font-family: tahoma;
     padding: 10px;
+    margin-top: 10px;
 }
 .pink{
     color: rgb(255, 110, 134);
 }
+.note p{
+    margin-top: 10px;
+}
+main{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* REGISTER */
+
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.actions{
+    display: flex;
+    gap: 20px;
+}
+/* HOME */
+ .home{
+    display: none;
+} 
+/* .register{
+    display: none;
+} */
