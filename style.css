@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* NAVIGATION TAB */
 nav{
    height: 100px;
    width: 100%;
@@ -70,16 +70,19 @@ form{
 .input{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 form input{
     height: 40px;
     border-radius: 5px;
     padding: 5px;
     font-size: 20px;
+
 }
 .actions{
     display: flex;
     gap: 20px;
+    margin-top: 20px;
 }
 /* HOME */
  .home{
@@ -91,7 +94,7 @@ form input{
 
 /* EMAIL */
 .email{
-
+display: none;
 }
 .email-txt{
     padding: 20px;
@@ -99,3 +102,5 @@ form input{
     background-color: rgb(172, 250, 172);
     border-radius: 8px;
 }
+/* LOGIN  */
+
