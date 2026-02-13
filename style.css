@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 nav{
    height: 100px;
    width: 100%;
@@ -17,6 +18,7 @@ nav h1{
     font-size: 20px;
     font-family: tahoma;
     padding-left: 30px;
+    color: white;
     
     
 }
@@ -83,6 +85,17 @@ form input{
  .home{
     display: none;
 } 
-/* .register{
+ .register{
     display: none;
-} */
+} 
+
+/* EMAIL */
+.email{
+
+}
+.email-txt{
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(172, 250, 172);
+    border-radius: 8px;
+}
