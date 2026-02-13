@@ -4,23 +4,25 @@
     box-sizing: border-box;
 }
 /* NAVIGATION TAB */
+/* NOT LOG IN */
 
     .not-login{
    height: 100px;
    width: 100%;
    background-color: rgb(93, 95, 95);
    justify-content: space-between;
-   display: flex;
+   display: none;
    align-items: center;
    padding-right: 20px; 
    
-}
+   /* ADMIN PAGE */
+}  
   .admin{
    height: 100px;
    width: 100%;
    background-color: rgb(93, 95, 95);
    justify-content: space-between;
-   display: none;
+   display:flex ;
    align-items: center;
    padding-right: 20px; 
    
@@ -122,5 +124,27 @@ display: none;
     border: 2px solid;
     border-radius: 5px;
     width: 35%;
+}
+.profile-page{
+    display: none;
+}
+.emp-left{
+    justify-content: space-between;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.employees{
+    display: ;
+}
+.addedit{
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.adedemp{
+    padding: 10px;
+    border: solid;
+    width: 25%;
 }
 

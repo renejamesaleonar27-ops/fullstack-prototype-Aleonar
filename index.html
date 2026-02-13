@@ -122,6 +122,8 @@
                 </div>
             </form>
         </section>
+
+        <!-- PROFILE PAGE -->
         
         <section class="profile-page">
             <h1>My Profile</h1>
@@ -134,7 +136,84 @@
                     <button type="button" class="btn btn-outline-primary"> Edit Profile</button>
                 </div>
 
+                <!-- EMPLOYEES PAGE -->
+
             </div>
+        </section>
+        <section class="employees">
+            <div class="emp-left"> 
+            <h1>Employees</h1>
+            <button type="button" class="btn btn-success">+Add Employees</button>
+            </div>
+
+            <!-- TABLES OF EMPLOYEES -->
+
+         <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Dept</th>
+                <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Bottom</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Makoy</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Top</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Chris</td>
+                <td>Doe</td>
+                <td>@social</td>
+                <td>Right</td>
+                </tr>
+            </tbody>
+         </table>
+         <div class="adedemp">
+            <div class="addedit">
+                Add/Edit Employee
+            </div>
+            <form>
+                <div class="input">
+                <div class="input">
+                    <label for="empid">Employee ID</label>
+                    <input type="text" id="empid">
+                </div>
+                 <div class="input">
+                    <label for="email">User Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input">
+                    <label for="position">Position</label>
+                    <input type="text" id="position">
+                </div>
+                <div class="input">
+                    <label for="department">Departent</label>
+                    <input type="text" id="department">
+                </div>
+                <div class="input">
+                    <label for="date">Hire Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="actions">
+                   <button type="button" class="btn btn-outline-primary">Save</button>
+                    <button type="button" class="btn btn-light">Cancel</button>
+                </div>
+            </form>
+         </div>
         </section>
     </main>
 
