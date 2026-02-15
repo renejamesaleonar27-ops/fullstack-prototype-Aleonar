@@ -41,8 +41,9 @@
     </nav>
 
     <main>
-        <section class="home">
-            <h1>
+        <section class="page" id="home-page">
+            <div class="home">
+                <h1>
                 Welcome to Full Stack App
             </h1>
             <p> A static prototype before backend integration. Simulates:</p>
@@ -56,13 +57,15 @@
                 <p><strong>⚠️Note:</strong> All data is stored in<span class="pink"> localStorage</span>.Refresh to reset.</p>
             </div>
             <button type="button" class="btn btn-primary">Get Started→</button>
+            </div>
             
         </section>
 
         <!-- REGISTER -->
 
-        <section class="register">
-            <h1>Register Account</h1>
+        <section class="page" id="register-page">
+            <div class="register">
+                <h1>Register Account</h1>
             <form action="">
                 <div class="input">
                     <label for="firstname">First Name</label>
@@ -87,23 +90,24 @@
             </form>
         </section>
 
-        <section class="email">
-            <h1>Verify your Email</h1>
-
+        <section class="page" id="email-page">
+          <div class="email">
+                <h1>Verify your Email</h1>
             <p class="email-txt">✅A verification link has been sent to.</p>
-
             <p>For demo purposes, click below to simulate verification:</p>
-
             <div class="actions">
                 <button type="button" class="btn btn-success">✅Simulate Verification</button>
                 <button type="button" class="btn btn-light">Go to Login</button>
             </div>
+        </div>
+            
         </section> 
 
         <!-- LOGIN -->
 
-        <section class="login">
-            <br>
+        <section class="page" id="login-page">
+            <div class="login">
+                <br>
             <p class="email-txt">✅Email verified! You may now log in.</p>
             <h1>Login</h1>
             <form action="">
@@ -117,16 +121,18 @@
                     <input type="password" id="password">
                 </div>
                 <div class="actions">
-                   <button type="button" class="btn btn-outline-primary">Login</button>>
+                   <button type="button" class="btn btn-outline-primary">Login</button>
                     <button type="button" class="btn btn-light">Cancel</button>
                 </div>
             </form>
+            </div>
         </section>
 
         <!-- PROFILE PAGE -->
         
-        <section class="profile-page">
-            <h1>My Profile</h1>
+        <section class="page" id="profile-page">
+            <div class="profile">
+                <h1>My Profile</h1>
             <div class="inner-profile">
                 <h3>Admin User</h3>
                 <p><strong>Email:</strong><span> admin@example.com</span></p>
@@ -135,13 +141,15 @@
                 <div class="actions">
                     <button type="button" class="btn btn-outline-primary"> Edit Profile</button>
                 </div>
+            </div>
 
                 <!-- EMPLOYEES PAGE -->
 
             </div>
         </section>
-        <section class="employees">
-            <div class="emp-left"> 
+        <section class="page" id="employee-page">
+            <div class="employees">
+                <div class="emp-left"> 
             <h1>Employees</h1>
             <button type="button" class="btn btn-success">+Add Employees</button>
             </div>
@@ -214,6 +222,42 @@
                 </div>
             </form>
          </div>
+            </div>
+        </section>
+        <section class="" id="department-page">
+            <div class="dep-head">
+                <h1>Departments</h1>
+                <button type="button" class="btn btn-success">+ Add Departments</button>
+            </div>
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td><button type="button" class="btn btn-outline-primary">Edit</button> <button type="button" class="btn btn-outline-danger">Delete</button></td>
+          
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td><button type="button" class="btn btn-outline-primary">Edit</button> <button type="button" class="btn btn-outline-danger">Delete</button></td>
+                   
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>John</td>
+            <td><button type="button" class="btn btn-outline-primary">Edit</button> <button type="button" class="btn btn-outline-danger">Delete</button></td>
+           
+            </tr>
+        </tbody>
+        </table>
         </section>
     </main>
 

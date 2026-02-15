@@ -3,6 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+.page { 
+    display: none; 
+}
+.page.active { 
+    display: block; 
+}
+body.not-authenticated .role-logged-in { 
+    display: none; 
+}
+body.authenticated .role-logged-out { 
+    display: none; 
+}
+.role-admin { 
+    display: none; 
+}
+body.is-admin .role-admin { 
+    display: block; 
+}
 /* NAVIGATION TAB */
 /* NOT LOG IN */
 
@@ -98,17 +116,11 @@ form input{
     margin-top: 20px;
 }
 /* HOME */
- .home{
-    display: none;
-} 
- .register{
-    display: none;
-} 
+
+
 
 /* EMAIL */
-.email{
-display: none;
-}
+
 .email-txt{
     padding: 20px;
     width: 30%;
@@ -116,27 +128,21 @@ display: none;
     border-radius: 8px;
 }
 /* LOGIN  */
-.login{
-    display: none;
-}
+
 .inner-profile{
     padding: 10px;
     border: 2px solid;
     border-radius: 5px;
     width: 35%;
 }
-.profile-page{
-    display: none;
-}
+
 .emp-left{
     justify-content: space-between;
     height: auto;
     display: flex;
     align-items: center;
 }
-.employees{
-    display: ;
-}
+
 .addedit{
     padding: 10px;
     background-color: #f8f8f8;
@@ -147,4 +153,9 @@ display: none;
     border: solid;
     width: 25%;
 }
-
+.dep-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
